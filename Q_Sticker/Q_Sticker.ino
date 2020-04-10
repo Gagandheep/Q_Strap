@@ -12,8 +12,8 @@
 
 #define NOS 2                         // constant to hold the number of contacts to which alert has to be sent
 #define NORMAL_CHECK_DELAY 12e7       // time (us) delay between connection checks when all straps are connected
-#define CRITICAL_CHECK_DELAY 5000     // time (ms) delay between connection checks when all straps are not connected
-#define MAX_OFFLINE_DURATION 10000    // time (ms) duration during which the sticker waits for the straps to reconnect if Disconnected, after which an alert is sent
+#define CRITICAL_CHECK_DELAY 20000    // time (ms) delay between connection checks when all straps are not connected
+#define MAX_OFFLINE_DURATION 180000   // time (ms) duration during which the sticker waits for the straps to reconnect if Disconnected, after which an alert is sent
 #define PIN_BUZZER 5                  // pin to which buzzer is connected
 
 
